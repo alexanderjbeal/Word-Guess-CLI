@@ -11,7 +11,7 @@
 let Letter = function (value) {
     this.value = value;
     this.hidden = true;
-    this.updateDisplay = function (guess) {
+    this.updateDisplay = (guess) => {
         if (guess === this.value) this.hidden = false;
     };
 };

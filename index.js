@@ -17,7 +17,7 @@ const inquirer = require("inquirer");
 let Word = require("./word");
 
 const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-const wordArray = ['javascript', 'jquery', 'css', 'html', 'hypertext markup language', 'cascading style sheet', 'nodejs', 'react', 'express'];
+const wordArray = ['blockchain', 'node', 'cryptocurrency', 'interoperability', 'poa network', 'ethereum', 'sidechain', 'validator'];
 const logoDisplay = () => {
   console.log('====================================================================');
   console.log('|   ___  __   __ _  ____  ____  ____  _  _   ___  ____  __  ____   |');
@@ -85,7 +85,7 @@ const round = () => {
   });
 };
 
-const game = () =>{
+const game = () => {
   console.clear();
   logoDisplay();
   gameInProgress = true;
